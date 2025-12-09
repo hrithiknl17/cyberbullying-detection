@@ -17,6 +17,9 @@ from keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import json
 
+with app.app_context():
+    db.create_all()
+
 # --- 1. CONFIGURATION & SETUP ---
 
 # Initialize NLTK data (Safe for cloud deployment)

@@ -7,3 +7,4 @@ instance/
 *.db
 *.sqlite3
 serviceAccountKey.json
+serviceAccountKey.json

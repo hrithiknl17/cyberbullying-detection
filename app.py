@@ -31,7 +31,6 @@ nltk.data.path.append(NLTK_DATA_PATH)
 # TensorFlow / Keras
 # =========================
 from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # =========================
 # Flask App Setup
